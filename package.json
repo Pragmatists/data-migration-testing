@@ -1,0 +1,33 @@
+{
+  "name": "data-migration-testing",
+  "version": "1.0.0",
+  "description": "Base setup for data migration with automated testing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest --runInBand"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pragmatists/data-migration-testing.git"
+  },
+  "keywords": [
+    "data migration",
+    "testing"
+  ],
+  "author": "Pragmatists",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Pragmatists/data-migration-testing/issues"
+  },
+  "homepage": "https://github.com/Pragmatists/data-migration-testing",
+  "dependencies": {
+    "mongodb": "3.5.9",
+    "pg": "8.3.0"
+  },
+  "devDependencies": {
+    "jest": "26.1.0",
+    "mongodb-memory-server": "6.6.1",
+    "shelljs": "0.8.4"
+  }
+}
